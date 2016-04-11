@@ -1,0 +1,59 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+.img-circle{
+
+	border-radius: 50%;
+	max-width: 250px;
+	max-height: 250px;
+	text-align: center;
+}
+
+.navbar-default{
+
+	background-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-color: transparent;
+}
+./*active{
+
+	background-color: #576AC1;
+}*/
+
+.hero {
+
+	margin-bottom: 20px;
+}
+
+.platform {
+
+	font-family: 'Arvo', serif;
+	text-align: center;
+}
+
+.firstthree {
+
+	text-align: center;
+}
+
+
+.img-circle {
+    display: block;
+    height: 225px;
+    width: 100%;
+    margin-bottom: 40px;
+    opacity: 1;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.img-circle:hover {
+    opacity: 0.5;
+}
+
